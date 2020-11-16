@@ -1,8 +1,8 @@
 ## code your solution here.
-class  = Struct.new(:attr_accessor) do
-  def cat
+class  Cat
+  attr_accessor :name
 
+  def meow
+    puts "meow!"
   end
-
-
 end
